@@ -40,7 +40,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sandbox" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -49,34 +57,7 @@
       <recent name="ru.stfa.sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.points">
-    <configuration name="MyProgramm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyProgramm" />
-      <module name="Java_reposit" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Points" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="po.stqa.sandbox.Points" />
-      <module name="Java_reposit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="po.stqa.sandbox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Points" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.sandbox.Points" />
-      <module name="Java_reposit" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Testpoints">
     <configuration name="points" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.sandbox.points" />
       <module name="Java_reposit" />
@@ -107,13 +88,58 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="C:/mine/JAVA/Java_reposit/sandbox/build.gradle (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/mine/JAVA/Java_reposit/sandbox/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox/build.gradle" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testpoints" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_reposit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testpoints" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.points" />
-        <item itemvalue="Application.Points (1)" />
-        <item itemvalue="Application.MyProgramm" />
-        <item itemvalue="Application.Points" />
+        <item itemvalue="TestNG.Testpoints" />
+        <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/sandbox/build.gradle (2)" />
         <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/sandbox/build.gradle (1)" />
+        <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/sandbox/build.gradle" />
+        <item itemvalue="Application.points" />
       </list>
     </recent_temporary>
   </component>
@@ -129,33 +155,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1598439642930">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439642930" />
     <state x="466" y="254" width="476" height="219" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598431918707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="254" width="476" height="219" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598431918707" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598432323363">
+    <state x="480" y="239" key="DetectedRootsChooserDialog" timestamp="1598439638524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598432323363" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598432323363">
+    <state x="480" y="239" key="DetectedRootsChooserDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439638524" />
+    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1598439636553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598432323363" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598432323363">
+    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439636553" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598439244443">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598432323363" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598432323363">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439244443" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598439244443">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598432323363" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439244443" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598439244443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439244443" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598439244443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439244443" />
+    <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598439541995">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439541995" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/sandbox/points.java</url>
-          <line>11</line>
+          <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
