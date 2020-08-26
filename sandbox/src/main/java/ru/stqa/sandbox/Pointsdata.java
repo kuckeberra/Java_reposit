@@ -10,6 +10,8 @@ public class Pointsdata {
       this.p2=p2;
       this.p3=p3;
       this.p4=p4;
-
     }
+  public double distance () {
+    return Math.sqrt((this.p3-this.p1)*(this.p3-this.p1)+(this.p4-this.p2)*(this.p4-this.p2));
+  }
 }
