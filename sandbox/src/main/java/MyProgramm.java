@@ -1,15 +1,10 @@
 public class MyProgramm {
 
     public static void main(String[] args) {
-        mmm("Masha");
+        mmm(); }
 
-        double l = 5;
-        System.out.println("ploschad " + l + "=" + area(l));
-    }
-    public static void mmm (String ttt) {
-        System.out.println("Hello " + ttt);
-    }
-    public static double area(double len) {
-        return len*len;
+    public static void mmm () {
+        System.out.println("Hello ");
+
     }
 }
