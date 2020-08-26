@@ -3,13 +3,11 @@ package ru.stqa.sandbox;
 public class points {
   public static void main(String[] args) {
 
-    double x = 0;
-    double y = 1;
-    double z = 2;
-    double w = -2;
-    double t = (z-x)*(z-x);
-    double r = (w-y)*(w-y);
-    double s = (t+r);
-    System.out.println("points distance =" + Math.sqrt(s));
+    Pointsdata P = new Pointsdata(0, 1, 2, -2);
+    System.out.println("points distance =" + distance(P));
+  }
+  public static double distance (Pointsdata P){
+    return Math.sqrt((P.p3-P.p1)*(P.p3-P.p1)+(P.p4-P.p2)*(P.p4-P.p2));
   }
 }
+
