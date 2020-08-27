@@ -57,7 +57,7 @@
       <recent name="ru.stfa.sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Testpoints">
+  <component name="RunManager" selected="Application.points">
     <configuration name="points" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.sandbox.points" />
       <module name="Java_reposit" />
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.points" />
         <item itemvalue="TestNG.Testpoints" />
         <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/sandbox/build.gradle (2)" />
         <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/sandbox/build.gradle (1)" />
         <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/sandbox/build.gradle" />
-        <item itemvalue="Application.points" />
       </list>
     </recent_temporary>
   </component>
@@ -171,22 +171,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439636553" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598439244443">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598439852998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439244443" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598439244443">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439852998" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598439852998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439244443" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598439244443">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439852998" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598439852997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439244443" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598439244443">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439852997" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598439852998">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439244443" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598439852998" />
     <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598439541995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -197,7 +197,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/sandbox/points.java</url>
-          <line>7</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
