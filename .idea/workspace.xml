@@ -92,58 +92,7 @@
       <recent name="ru.stfa.sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupTestCase">
-    <configuration name="C:/mine/JAVA/Java_reposit/addressbook-web-tests/build.gradle (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GroupTestCase (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_reposit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.addressbook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.GroupTestCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupTestCase (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_reposit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.addressbook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.GroupTestCase" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.UntitledTestCase (1)">
     <configuration name="GroupTestCase (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_reposit" />
       <extension name="coverage">
@@ -187,20 +136,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UntitledTestCase (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_reposit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pp.stfa.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.UntitledTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UntitledTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_reposit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pp.stfa.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.UntitledTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UntitledTestCase.testContactCreation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_reposit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pp.stfa.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.UntitledTestCase" />
+      <option name="METHOD_NAME" value="testContactCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.GroupTestCase" />
-      <item itemvalue="TestNG.GroupTestCase (1)" />
-      <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/addressbook-web-tests/build.gradle (1)" />
-      <item itemvalue="TestNG.GroupTestCase (2)" />
       <item itemvalue="TestNG.GroupTestCase (3)" />
+      <item itemvalue="TestNG.UntitledTestCase.testContactCreation" />
+      <item itemvalue="TestNG.UntitledTestCase" />
+      <item itemvalue="TestNG.UntitledTestCase (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UntitledTestCase (1)" />
+        <item itemvalue="TestNG.UntitledTestCase" />
+        <item itemvalue="TestNG.UntitledTestCase.testContactCreation" />
         <item itemvalue="TestNG.GroupTestCase" />
         <item itemvalue="TestNG.GroupTestCase (3)" />
-        <item itemvalue="TestNG.GroupTestCase (2)" />
-        <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/addressbook-web-tests/build.gradle (1)" />
-        <item itemvalue="TestNG.GroupTestCase (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -244,22 +245,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598725529249" />
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1598983774062">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1598986431205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598983774062" />
-    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1598983774061">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598986431205" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1598986431205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598983774061" />
-    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1598983774061">
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598986431205" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1598986431204">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598983774061" />
-    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1598983774062">
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598986431204" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1598986431205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598983774062" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598986431205" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598724335615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
