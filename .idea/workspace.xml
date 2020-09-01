@@ -24,6 +24,9 @@
         <task path="$PROJECT_DIR$/sandbox">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/addressbook-web-tests/build.gradle">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -75,6 +78,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sandbox" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -90,23 +94,6 @@
   </component>
   <component name="RunManager" selected="TestNG.GroupTestCase">
     <configuration name="C:/mine/JAVA/Java_reposit/addressbook-web-tests/build.gradle (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="C:/mine/JAVA/Java_reposit/addressbook-web-tests/build.gradle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
@@ -157,6 +144,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupTestCase (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_reposit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.addressbook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.GroupTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GroupTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_reposit" />
       <useClassPathOnly />
@@ -184,19 +188,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/addressbook-web-tests/build.gradle" />
       <item itemvalue="TestNG.GroupTestCase" />
       <item itemvalue="TestNG.GroupTestCase (1)" />
       <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/addressbook-web-tests/build.gradle (1)" />
       <item itemvalue="TestNG.GroupTestCase (2)" />
+      <item itemvalue="TestNG.GroupTestCase (3)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GroupTestCase" />
+        <item itemvalue="TestNG.GroupTestCase (3)" />
         <item itemvalue="TestNG.GroupTestCase (2)" />
         <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/addressbook-web-tests/build.gradle (1)" />
         <item itemvalue="TestNG.GroupTestCase (1)" />
-        <item itemvalue="Gradle.C:/mine/JAVA/Java_reposit/addressbook-web-tests/build.gradle" />
       </list>
     </recent_temporary>
   </component>
@@ -240,22 +244,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598725529249" />
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1598982518151">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom" timestamp="1598983774062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598982518151" />
-    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1598982518150">
+    <state width="1323" height="204" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598983774062" />
+    <state width="1323" height="204" key="GridCell.Tab.0.center" timestamp="1598983774061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598982518150" />
-    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1598982518148">
+    <state width="1323" height="204" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598983774061" />
+    <state width="1323" height="204" key="GridCell.Tab.0.left" timestamp="1598983774061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598982518148" />
-    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1598982518151">
+    <state width="1323" height="204" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598983774061" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right" timestamp="1598983774062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598982518151" />
+    <state width="1323" height="204" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598983774062" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598724335615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,6 +276,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598724335615" />
+    <state x="451" y="0" key="RefactorJ.IntroduceParameterObject" timestamp="1598984576638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="451" y="0" key="RefactorJ.IntroduceParameterObject/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598984576638" />
+    <state x="498" y="298" key="ReplaceDuplicatesPrompt" timestamp="1598983757082">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="498" y="298" key="ReplaceDuplicatesPrompt/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598983757082" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1598725475848">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -284,6 +296,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="273" key="com.intellij.jarRepository.RepositoryAttachDialog-SEARCH/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598723295861" />
+    <state x="413" y="125" key="extract.method.dialog" timestamp="1598983924716">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="125" key="extract.method.dialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598983924716" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_reposit$GroupTestCase.ic" NAME="GroupTestCase Coverage Results" MODIFIED="1598723827703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
