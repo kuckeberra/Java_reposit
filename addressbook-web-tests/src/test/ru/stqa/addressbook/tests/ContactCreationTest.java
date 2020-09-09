@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import pp.stfa.addressbook.ContactInfo;
+import ru.stqa.addressbook.model.ContactData;
 
 public class ContactCreationTest {
   private WebDriver wd;
@@ -29,7 +29,7 @@ public class ContactCreationTest {
   @Test
   public void testUntitledTestCase() throws Exception {
     createNewContact();
-    fillContactForm(new ContactInfo("Maria", "Ogorodnikova", "8887766", "masha@yahoo.com"));
+    fillContactForm(new ContactData("Maria", "Ogorodnikova", "8887766", "masha@yahoo.com"));
     submitNewContact();
     returnHome();
     wd.findElement(By.linkText("Logout")).click();
@@ -43,7 +43,7 @@ public class ContactCreationTest {
     wd.findElement(By.xpath("(//input[@name='submit'])[2]")).click();
   }
 
-  private void fillContactForm(ContactInfo contactInfo) {
+  private void fillContactForm(ContactData contactInfo) {
     wd.findElement(By.name("firstname")).click();
     wd.findElement(By.name("firstname")).clear();
     wd.findElement(By.name("firstname")).sendKeys(contactInfo.getName());

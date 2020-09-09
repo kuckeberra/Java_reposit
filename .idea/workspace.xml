@@ -236,6 +236,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="254" width="476" height="219" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598431918707" />
+    <state x="276" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599657469356">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="276" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599657469356" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598634552893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
