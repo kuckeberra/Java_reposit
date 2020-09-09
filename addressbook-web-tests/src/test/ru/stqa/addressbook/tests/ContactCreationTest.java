@@ -14,20 +14,18 @@ public class ContactCreationTest extends TestBaseForContact{
 
   }
 
-  private void ReturnHome() {
-    app.returnHome();
-  }
+  private void ReturnHome() { app.getContactHelper().returnHome();  }
 
   private void SubmitNewContact() {
-    app.submitNewContact();
+    app.getContactHelper().submitNewContact();
   }
 
   private void FillContactForm() {
-    app.fillContactForm(new ContactData("Maria", "Ogorodnikova", "8887766", "masha@yahoo.com"));
+    app.getContactHelper().fillContactForm(new ContactData("Maria", "Ogorodnikova", "8887766", "masha@yahoo.com"));
   }
 
   private void getNewContact() {
-    app.createNewContact();
+    app.getContactHelper().createNewContact();
   }
 
 }
