@@ -10,8 +10,8 @@ public class GroupDeletionTest extends TestBase {
   public void testGroupDeletion() throws Exception {
    gotoGroupPage();
     selectGroup();
-    app.deleteSelectedGroups();
-    app.returnToGroupPage();
+    app.getGroupHelper().deleteSelectedGroups();
+    app.getGroupHelper().returnToGroupPage();
 
   }
 
@@ -19,7 +19,7 @@ public class GroupDeletionTest extends TestBase {
   }
 
   private void selectGroup() {
-    app.wd.findElement(By.linkText("groups")).click();
+    app.getGroupHelper().wd.findElement(By.linkText("groups")).click();
   }
 
 
