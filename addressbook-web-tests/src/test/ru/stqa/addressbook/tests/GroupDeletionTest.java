@@ -1,4 +1,4 @@
-package ru.stqa.addressbook;
+package ru.stqa.addressbook.tests;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -10,8 +10,8 @@ public class GroupDeletionTest extends TestBase {
   public void testGroupDeletion() throws Exception {
    gotoGroupPage();
     selectGroup();
-    deleteSelectedGroups();
-    returnToGroupPage();
+    app.deleteSelectedGroups();
+    app.returnToGroupPage();
 
   }
 
@@ -19,7 +19,7 @@ public class GroupDeletionTest extends TestBase {
   }
 
   private void selectGroup() {
-    wd.findElement(By.linkText("groups")).click();
+    app.wd.findElement(By.linkText("groups")).click();
   }
 
 

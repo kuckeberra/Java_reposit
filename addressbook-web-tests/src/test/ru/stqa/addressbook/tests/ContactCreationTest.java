@@ -1,4 +1,4 @@
-package pp.stfa.addressbook;
+package ru.stqa.addressbook.tests;
 
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
@@ -6,10 +6,8 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import pp.stfa.addressbook.ContactInfo;
 
-public class UntitledTestCase {
+public class ContactCreationTest {
   private WebDriver wd;
-
-
   @BeforeMethod(alwaysRun = true)
   public void setUp() throws Exception {
     wd = new FirefoxDriver();
