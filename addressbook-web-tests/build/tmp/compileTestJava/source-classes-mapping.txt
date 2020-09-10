@@ -1,6 +1,0 @@
-ru/stqa/tests/GroupDeletionTest.java
- ru.stqa.tests.GroupDeletionTest
-ru/stqa/tests/ContactCreationTest.java
- ru.stqa.tests.ContactCreationTest
-ru/stqa/tests/GroupCreationTest.java
- ru.stqa.tests.GroupCreationTest

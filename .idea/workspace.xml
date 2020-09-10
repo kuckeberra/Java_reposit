@@ -97,20 +97,13 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sandbox" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4045977" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\mine\JAVA\Java_reposit\addressbook-web-tests\src\test\addressbook\java\ru\stqa\tests" />
-      <recent name="C:\mine\JAVA\Java_reposit\addressbook-web-tests\src\test\addressbook\java" />
-      <recent name="C:\mine\JAVA\Java_reposit\addressbook-web-tests\src\test\addressbook" />
-      <recent name="C:\mine\JAVA\Java_reposit\addressbook-web-tests" />
-      <recent name="C:\mine\JAVA\Java_reposit\addressbook-web-tests\src\test\java\ru\stqa" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.stqa.sandbox" />
       <recent name="ru.stqa.pft.sandbox" />
@@ -122,63 +115,7 @@
       <recent name="ru.stqa.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GroupCreationTest">
-    <configuration name="ContactCreationTest.testUntitledTestCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.addressbook.tests.ContactCreationTest.testUntitledTestCase&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GroupCreationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ru.stqa.tests.GroupCreationTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ContactCreationTest.testUntitledTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_reposit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.tests.ContactCreationTest" />
-      <option name="METHOD_NAME" value="testUntitledTestCase" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.GroupDeletionTest.testGroupDeletion">
     <configuration name="GroupDeletionTest.testGroupDeletion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_reposit" />
       <extension name="coverage">
@@ -190,6 +127,41 @@
       <option name="PACKAGE_NAME" value="ru.stqa.addressbook.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.tests.GroupDeletionTest" />
       <option name="METHOD_NAME" value="testGroupDeletion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_reposit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.tests.GroupModificationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupModificationTests.testGroupModification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_reposit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.tests.GroupModificationTests" />
+      <option name="METHOD_NAME" value="testGroupModification" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -214,20 +186,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupTestCase.testGroupCreation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_reposit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.addressbook.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.tests.GroupTestCase" />
+      <option name="METHOD_NAME" value="testGroupCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UntitledTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_reposit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.addressbook.appmanager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pp.stfa.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="com.example.tests.UntitledTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="TestNG.GroupTestCase.testGroupCreation" />
+      <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
+      <item itemvalue="TestNG.GroupModificationTests" />
       <item itemvalue="TestNG.GroupTestCase" />
       <item itemvalue="TestNG.GroupDeletionTest.testGroupDeletion" />
-      <item itemvalue="TestNG.ContactCreationTest.testUntitledTestCase" />
-      <item itemvalue="Gradle.ContactCreationTest.testUntitledTestCase" />
-      <item itemvalue="Gradle.GroupCreationTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GroupCreationTest" />
-        <item itemvalue="Gradle.GroupCreationTest" />
-        <item itemvalue="Gradle.GroupCreationTest" />
-        <item itemvalue="Gradle.ContactCreationTest.testUntitledTestCase" />
-        <item itemvalue="TestNG.ContactCreationTest.testUntitledTestCase" />
+        <item itemvalue="TestNG.GroupDeletionTest.testGroupDeletion" />
+        <item itemvalue="TestNG.GroupTestCase" />
+        <item itemvalue="TestNG.GroupModificationTests" />
+        <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
+        <item itemvalue="TestNG.GroupTestCase.testGroupCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -252,14 +259,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="0" key="#Project_Structure" timestamp="1599743070740">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1598725585093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598725585093" />
-    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1599743070740" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598724581528">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -268,15 +273,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598724310633" />
-    <state x="393" y="116" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1599727412283">
+    <state x="393" y="116" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1599665898007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="393" y="116" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599727412283" />
-    <state x="343" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599741769278">
+    <state x="393" y="116" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599665898007" />
+    <state x="343" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599075149449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="343" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599075149449" />
-    <state x="343" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1599741769278" />
     <state x="466" y="254" width="476" height="219" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598431918707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -285,40 +289,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="276" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599657469356" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599740021234">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598634552893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599726804300" />
-    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599740021234" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598634552893" />
     <state x="480" y="239" key="DetectedRootsChooserDialog" timestamp="1598723410902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="239" key="DetectedRootsChooserDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598723410902" />
-    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1599743190003">
+    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1598725529249">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598725529249" />
-    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1599743190003" />
-    <state width="1323" height="175" key="GridCell.Tab.0.bottom" timestamp="1599743221638">
+    <state width="1306" height="219" key="GridCell.Tab.0.bottom" timestamp="1599667349573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599726798316" />
-    <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599743221638" />
-    <state width="1323" height="175" key="GridCell.Tab.0.center" timestamp="1599743221637">
+    <state width="1306" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349573" />
+    <state width="1306" height="219" key="GridCell.Tab.0.center" timestamp="1599667349573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599726798316" />
-    <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599743221637" />
-    <state width="1323" height="175" key="GridCell.Tab.0.left" timestamp="1599743221637">
+    <state width="1306" height="219" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349573" />
+    <state width="1306" height="219" key="GridCell.Tab.0.left" timestamp="1599667349573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599726798315" />
-    <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599743221637" />
-    <state width="1323" height="175" key="GridCell.Tab.0.right" timestamp="1599743221637">
+    <state width="1306" height="219" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349573" />
+    <state width="1306" height="219" key="GridCell.Tab.0.right" timestamp="1599667349573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599726798316" />
-    <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599743221637" />
+    <state width="1306" height="219" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349573" />
     <state width="1306" height="219" key="GridCell.Tab.1.bottom" timestamp="1599667349574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -335,10 +333,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1306" height="219" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349574" />
-    <state x="348" y="68" key="NewModule_or_Project.wizard" timestamp="1599743218939">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="348" y="68" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1599743218939" />
     <state x="451" y="0" width="520" height="728" key="RefactorJ.IntroduceParameterObject" timestamp="1598987978436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -375,10 +369,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="125" key="extract.method.dialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599664297617" />
-    <state x="274" y="0" key="new project wizard" timestamp="1599743139611">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="274" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1599743139611" />
     <state x="478" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1599666415624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -388,14 +378,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/addressbook-web-tests/src/test/addressbook/java/ru/stqa/tests/GroupDeletionTest.java</url>
+          <url>file://$PROJECT_DIR$/addressbook-web-tests/src/test/ru/stqa/addressbook/tests/GroupDeletionTest.java</url>
           <line>11</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/addressbook-web-tests/src/test/addressbook/java/ru/stqa/tests/GroupModificationTests.java</url>
+          <url>file://$PROJECT_DIR$/addressbook-web-tests/src/test/ru/stqa/addressbook/tests/GroupModificationTests.java</url>
           <line>7</line>
-          <properties class="ru.stqa.addressbook.tests.GroupModificationTests">
+          <properties class="ru.stqa.addressbook.tests.GroupModificationTests" method="testGroupModification">
             <option name="instance-filters-enabled" value="true" />
             <instance-filters>
               <instance-filter id="3802" />
