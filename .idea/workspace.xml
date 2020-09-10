@@ -3,6 +3,24 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="273963af-bab8-4faa-9ff1-04f9252449f4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,8 +115,8 @@
       <recent name="ru.stqa.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContactCreationTest.testUntitledTestCase">
-    <configuration name="ContactCreationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GroupDeletionTest.testGroupDeletion">
+    <configuration name="GroupDeletionTest.testGroupDeletion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_reposit" />
       <extension name="coverage">
         <pattern>
@@ -107,25 +125,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.tests.ContactCreationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactCreationTest.testUntitledTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java_reposit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.addressbook.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.addressbook.tests" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.tests.ContactCreationTest" />
-      <option name="METHOD_NAME" value="testUntitledTestCase" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.tests.GroupDeletionTest" />
+      <option name="METHOD_NAME" value="testGroupDeletion" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -133,17 +134,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupDeletionTest.testGroupDeletion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupModificationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java_reposit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.addressbook.appmanager.*" />
+          <option name="PATTERN" value="ru.stqa.addressbook.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.tests.GroupDeletionTest" />
-      <option name="METHOD_NAME" value="testGroupDeletion" />
+      <option name="PACKAGE_NAME" value="ru.stqa.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.tests.GroupModificationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupModificationTests.testGroupModification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java_reposit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.addressbook.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.addressbook.tests.GroupModificationTests" />
+      <option name="METHOD_NAME" value="testGroupModification" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,7 +173,7 @@
       <module name="Java_reposit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.addressbook.appmanager.*" />
+          <option name="PATTERN" value="ru.stqa.addressbook.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,19 +222,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.GroupDeletionTest.testGroupDeletion" />
       <item itemvalue="TestNG.GroupTestCase.testGroupCreation" />
+      <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
+      <item itemvalue="TestNG.GroupModificationTests" />
       <item itemvalue="TestNG.GroupTestCase" />
-      <item itemvalue="TestNG.ContactCreationTest.testUntitledTestCase" />
-      <item itemvalue="TestNG.ContactCreationTest" />
+      <item itemvalue="TestNG.GroupDeletionTest.testGroupDeletion" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ContactCreationTest.testUntitledTestCase" />
-        <item itemvalue="TestNG.ContactCreationTest" />
-        <item itemvalue="TestNG.GroupTestCase" />
-        <item itemvalue="TestNG.GroupTestCase.testGroupCreation" />
         <item itemvalue="TestNG.GroupDeletionTest.testGroupDeletion" />
+        <item itemvalue="TestNG.GroupTestCase" />
+        <item itemvalue="TestNG.GroupModificationTests" />
+        <item itemvalue="TestNG.GroupModificationTests.testGroupModification" />
+        <item itemvalue="TestNG.GroupTestCase.testGroupCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +249,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1598725585093">
       <screen x="0" y="0" width="1366" height="728" />
@@ -244,10 +273,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598724310633" />
-    <state x="393" y="116" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1599665401455">
+    <state x="393" y="116" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1599665898007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="393" y="116" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599665401455" />
+    <state x="393" y="116" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599665898007" />
     <state x="343" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599075149449">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,38 +301,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598725529249" />
-    <state width="1306" height="173" key="GridCell.Tab.0.bottom" timestamp="1599664983744">
+    <state width="1306" height="219" key="GridCell.Tab.0.bottom" timestamp="1599667349573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599664983744" />
-    <state width="1306" height="173" key="GridCell.Tab.0.center" timestamp="1599664983744">
+    <state width="1306" height="219" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349573" />
+    <state width="1306" height="219" key="GridCell.Tab.0.center" timestamp="1599667349573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599664983744" />
-    <state width="1306" height="173" key="GridCell.Tab.0.left" timestamp="1599664983744">
+    <state width="1306" height="219" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349573" />
+    <state width="1306" height="219" key="GridCell.Tab.0.left" timestamp="1599667349573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599664983744" />
-    <state width="1306" height="173" key="GridCell.Tab.0.right" timestamp="1599664983744">
+    <state width="1306" height="219" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349573" />
+    <state width="1306" height="219" key="GridCell.Tab.0.right" timestamp="1599667349573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="173" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599664983744" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598724335615">
+    <state width="1306" height="219" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349573" />
+    <state width="1306" height="219" key="GridCell.Tab.1.bottom" timestamp="1599667349574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598724335615" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1598724335615">
+    <state width="1306" height="219" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349574" />
+    <state width="1306" height="219" key="GridCell.Tab.1.center" timestamp="1599667349574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598724335615" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1598724335615">
+    <state width="1306" height="219" key="GridCell.Tab.1.center/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349574" />
+    <state width="1306" height="219" key="GridCell.Tab.1.left" timestamp="1599667349573">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598724335615" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1598724335615">
+    <state width="1306" height="219" key="GridCell.Tab.1.left/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349573" />
+    <state width="1306" height="219" key="GridCell.Tab.1.right" timestamp="1599667349574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1598724335615" />
+    <state width="1306" height="219" key="GridCell.Tab.1.right/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599667349574" />
     <state x="451" y="0" width="520" height="728" key="RefactorJ.IntroduceParameterObject" timestamp="1598987978436">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -332,14 +361,41 @@
       <screen x="-1920" y="-368" width="1920" height="1040" />
     </state>
     <state x="-1033" y="-101" width="992" height="503" key="dock-window-1/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599664478964" />
+    <state x="-1077" y="-76" width="992" height="506" key="dock-window-2" timestamp="1599666440016">
+      <screen x="-1920" y="-368" width="1920" height="1040" />
+    </state>
+    <state x="-1077" y="-76" width="992" height="506" key="dock-window-2/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599666440016" />
     <state x="413" y="125" key="extract.method.dialog" timestamp="1599664297617">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="125" key="extract.method.dialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599664297617" />
-    <state x="478" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1599661413728">
+    <state x="478" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1599666415624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="478" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599661413728" />
+    <state x="478" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728/-1920.-368.1920.1040@0.0.1366.728" timestamp="1599666415624" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/addressbook-web-tests/src/test/ru/stqa/addressbook/tests/GroupDeletionTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/addressbook-web-tests/src/test/ru/stqa/addressbook/tests/GroupModificationTests.java</url>
+          <line>7</line>
+          <properties class="ru.stqa.addressbook.tests.GroupModificationTests" method="testGroupModification">
+            <option name="instance-filters-enabled" value="true" />
+            <instance-filters>
+              <instance-filter id="3802" />
+            </instance-filters>
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_reposit$GroupTestCase.ic" NAME="GroupTestCase Coverage Results" MODIFIED="1598723827703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
