@@ -2,22 +2,19 @@ package ru.stqa.addressbook.tests;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import ru.stqa.addressbook.appmanager.ApplicationManagerforContact;
 
-public class TestBaseForContact {
+public class TestBaseContacts {
 
-
-  protected final ApplicationManagerforContact app = new ApplicationManagerforContact();
+  protected final ApplicationManagerContact appl = new ApplicationManagerContact();
 
   @BeforeMethod(alwaysRun = true)
   public void setUp() throws Exception {
-    app.init();
+    appl.init();
   }
 
   @AfterMethod(alwaysRun = true)
   public void tearDown() throws Exception {
-    app.stop();
-
+    appl.stop();
   }
 
 }
