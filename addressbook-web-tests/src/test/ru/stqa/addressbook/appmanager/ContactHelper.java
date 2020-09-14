@@ -30,7 +30,7 @@ public class ContactHelper {
     wd.findElement(By.name("email")).sendKeys(contactData.getEmail());
   }
 
-  public void addContact() {
+  public void addNewContact() {
     wd.findElement(By.linkText("add new")).click();
   }
 }
