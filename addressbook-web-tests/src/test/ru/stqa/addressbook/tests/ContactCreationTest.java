@@ -2,16 +2,16 @@ package com.example.tests;
 
 import org.testng.annotations.*;
 import ru.stqa.addressbook.model.ContactData;
-import ru.stqa.addressbook.tests.TestBaseContacts;
+import ru.stqa.addressbook.tests.TestBase;
 
-public class ContactCreationTest extends TestBaseContacts {
+public class ContactCreationTest extends TestBase {
+
 
   @Test
   public void testContactCreation() throws Exception {
-    appl.getContactHelper().addContact();
-    appl.getContactHelper().fillContactForm(new ContactData("Maria", "Ogorodnikova", "8887766", "ogorodnikovam@yahoo.com"));
-    appl.getContactHelper().submitContactCreation();
+    applicationManager.getContactHelper().addNewContact();
+    applicationManager.getContactHelper().fillContactForm(new ContactData("Maria", "Ogorodnikova", "8887766", "ogorodnikovam@yahoo.com"));
+    applicationManager.getContactHelper().submitContactCreation();
   }
-
 
 }
