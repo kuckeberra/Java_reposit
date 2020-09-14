@@ -25,4 +25,17 @@ public class ContactHelper extends HelperBase{
   public void addNewContact() {
     click(By.linkText("add new"));
   }
+
+  public void selectContact() {
+    click(By.id("10"));
+
+  }
+
+  public void deleteContact() {
+    click(By.xpath("//input[@value='Delete']"));
+  }
+
+  public void submitAlert() {
+    wd.switchTo().alert().accept();
+  }
 }
